@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Text">Reni Merge</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Tooltip">Reni Tools — merge selected component geometry into one target.</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Name">Target</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Description">Destination component for the merged geometry.</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.NoSelection">(select components)</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Name">Placement</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Description">Where source geometry is placed relative to the target.</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.KeepWorldPlacement">Keep world placement</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.PlaceAtTargetOrigin">Place at target origin</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Name">Preserve sources</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Description">Keep source components after merge.</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgNeedSelection">Reni Merge: select at least two components.</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgFailed">Reni Merge failed: {0}</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgDone">Reni Merge: merged {0} into {1}.</s:String>
+</ResourceDictionary>

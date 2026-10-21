@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Text">Reni 合併</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Tooltip">Reni 工具 — 將所選組件幾何合併到目標組件。</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Name">目標組件</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Description">接收合併幾何的目標組件。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.NoSelection">(請選擇組件)</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Name">放置方式</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Description">來源幾何相對目標組件的放置方式。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.KeepWorldPlacement">保持世界座標位置</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.PlaceAtTargetOrigin">放到目標原點</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Name">保留來源組件</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Description">合併後仍保留來源組件。</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgNeedSelection">Reni 合併：請至少選擇兩個組件。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgFailed">Reni 合併失敗：{0}</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgDone">Reni 合併：已將 {0} 個合併到 {1}。</s:String>
+</ResourceDictionary>

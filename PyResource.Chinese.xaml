@@ -1,0 +1,23 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Text">Reni 合并</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Tooltip">Reni 工具 — 将所选组件几何合并到目标组件。</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Name">目标组件</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.Description">接收合并几何的目标组件。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Target.NoSelection">(请选择组件)</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Name">放置方式</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.Description">源几何相对目标组件的放置方式。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.KeepWorldPlacement">保持世界坐标位置</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.Placement.PlaceAtTargetOrigin">放到目标原点</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Name">保留源组件</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.PreserveSources.Description">合并后仍保留源组件。</s:String>
+
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgNeedSelection">Reni 合并：请至少选择两个组件。</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgFailed">Reni 合并失败：{0}</s:String>
+  <s:String x:Key="ComboKey::Python.ReniMerge.MsgDone">Reni 合并：已将 {0} 个合并到 {1}。</s:String>
+</ResourceDictionary>
